@@ -1,0 +1,26 @@
+body{
+    background-image: url('eiffel tower.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+  
+}
+
+
+
+#clock-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    color: white;
+    font-size: 7rem;
+    font-weight: bold;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    
+}
